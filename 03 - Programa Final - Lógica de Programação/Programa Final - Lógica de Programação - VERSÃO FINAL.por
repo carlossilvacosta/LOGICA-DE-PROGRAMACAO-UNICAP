@@ -9,9 +9,9 @@ programa
 	{ 
 	real CuboArest, ParaAltu, ParaLarg, ParaComp, EsfeRaio, CiliRaio, CiliAltu
 	inteiro opcao
-	cadeia repeticao = "sim"
+	cadeia resposta = "sim"
 					
-	enquanto(repeticao == "sim") 
+	enquanto(resposta == "sim") 
 		{
 		escreva("Dentre as opções abaixo, escolha o sólido geométrico que você deseja calcular.  \n")
 		escreva("1 - Cubo \n")
@@ -30,7 +30,7 @@ programa
 		limpa()
 		escreva("O volume do cubo é: ", volumecubo (CuboArest), "\n\n\n")
 		escreva("Ainda deseja calcular o volume de algum solido geométrico?(sim/não)\n\n")
-		leia(repeticao)
+		leia(resposta)
 		limpa()
 		pare
 		 
@@ -47,7 +47,7 @@ programa
 		limpa()
 		escreva("O volume do paralelepipedo é:", volumeparalelepipedo (ParaAltu, ParaLarg, ParaComp), "\n\n\n")
 		escreva("Ainda deseja calcular o volume de algum solido geométrico?(sim/não)\n\n")
-		leia(repeticao)
+		leia(resposta)
 		limpa()
 		pare
 		
@@ -58,7 +58,7 @@ programa
 		limpa()
 		escreva("O volume da esfera é:", volumeesfera (EsfeRaio), "\n\n\n")
 		escreva("Ainda deseja calcular o volume de algum solido geométrico?(sim/não)\n\n")
-		leia(repeticao)
+		leia(resposta)
 		limpa()
 		pare
 		
@@ -72,7 +72,7 @@ programa
 		limpa()
 		escreva("O volume do cilindro é:", volumecilindro (CiliRaio, CiliAltu), "\n\n\n")
 		escreva("Ainda deseja calcular o volume de algum solido geométrico?(sim/não)\n\n")
-		leia(repeticao)
+		leia(resposta)
 		limpa()
 		pare
 		
@@ -118,7 +118,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 230; 
+ * @POSICAO-CURSOR = 8; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
